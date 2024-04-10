@@ -1,1 +1,3 @@
-# student-app-jenkins
+# Student app
+--
+Student app for learning Jenkins
