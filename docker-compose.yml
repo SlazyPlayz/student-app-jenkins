@@ -1,0 +1,8 @@
+version: '3'
+services:
+  app:
+    image: slazy/studentapp
+    ports:
+      - "8000:8000" # Map port 3030 on the host to port 3030 in the container
+    environment:
+      - NODE_ENV=production
