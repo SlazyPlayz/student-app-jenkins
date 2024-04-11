@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Start App') {
             steps {
-                sh 'npm start'
+                sh 'npm start &'
             }
         }
         stage('Deploy to production') {
